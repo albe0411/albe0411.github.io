@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: blueviolet;
+}
+
+button{
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    margin: 35px;
+}
+
+h3{
+    margin-left: 75px;
+}
+
+.taltext{
+    margin-left: 95px;
+}
+
+.bananas{
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.bananas:hover{
+    background-color: rgb(113, 14, 206);
+}
+
+.bananas:active{
+    background-color: rgb(181, 114, 244);
+    color: black;
+}
+
+
+.main{
+    margin-left: 200px;
+}

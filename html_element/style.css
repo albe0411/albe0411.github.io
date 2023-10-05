@@ -1,11 +1,16 @@
 body {
     background-color: rgb(255, 0, 255);
 }
+/* anvender id för element*/
+#mindiv{
+    padding: 50px;
+}
 
 table, th, td {
     border: 3px dashed black;
     width: 400px;
 }
+/*här anvender vi klass istället till elementet*/
 .hundar{
     width: 200px;
 }
