@@ -99,7 +99,11 @@ figure{
         flex-wrap: wrap;
         height: 700px;
     }
+    .info{
+        height: 300px;
+    }
     .tim{
         align-self: flex-end;
+        align-self: center;
     }
 }
