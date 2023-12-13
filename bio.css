@@ -1,6 +1,19 @@
 body {
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h3{
+    margin: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.shortcut{
+    color: #ffffff;   
 }
 
 .logo {
@@ -17,6 +30,7 @@ body {
 
 #ommig {
     display: flex;
+    justify-content: space-around;
 }
 
 .information {
@@ -37,9 +51,27 @@ body {
     height: 300px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
+#projekt{
+    flex-wrap: wrap;
+}
+
+.subtext{
+    margin: 40px;
+}
+
+.projekt-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.projekt-kort{
+    height: 400px;
+    width: 250px;
+    box-shadow: 5px 5px 20px rgb(132, 132, 132);
+}
+
+.projekt-link{
+    color: blueviolet;
 }
 
 #navlist {
