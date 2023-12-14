@@ -12,6 +12,11 @@ a {
     text-decoration: none;
 }
 
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .shortcut{
     color: #ffffff;   
 }
@@ -62,11 +67,14 @@ a {
 .projekt-container{
     display: flex;
     justify-content: space-around;
+    margin: 50px;
+    flex-wrap: wrap;
 }
 
 .projekt-kort{
     height: 400px;
     width: 250px;
+    margin: 50px;
     box-shadow: 5px 5px 20px rgb(132, 132, 132);
 }
 
