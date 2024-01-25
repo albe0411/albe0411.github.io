@@ -26,38 +26,6 @@ h3{
     box-shadow: 20px 20px 80px rgb(132, 132, 132); 
 }
 
-/*
-#webbenshistoria{
-    display: flex;
-    align-items: center;
-    width: 80%;
-    height: 450px;
-    background-color: white;
-    position: relative;
-    box-sizing: border-box;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
-    box-shadow: 20px 20px 80px rgb(132, 132, 132); 
-}
-
-#webbensbetydelse{
-    display: flex;
-    align-self: center;
-    width: 80%;
-    height: 500px;
-    background-color: white;
-    position: relative;
-    box-sizing: border-box;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
-    box-shadow: 20px 20px 80px rgb(132, 132, 132); 
-}
-*/
-
 .info{
     height: 100%;
 }
@@ -80,12 +48,6 @@ h3{
 figure{
     margin: 40px;
 }
-
-/*.pic{
-    background-color: blueviolet;
-    width: 50%;
-    height: 50%;
-}*/
 
 #timpic{
     width: 100%;
