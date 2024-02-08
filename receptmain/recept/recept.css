@@ -1,4 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .wholepage{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 35vw 63vw;
+    grid-template-rows: 40vh auto;
+}
+
+.namn_på_mat{
+    background-color: rgb(204, 217, 243);
+}
+
+h1{
+    margin: 5vh;
+    font-size: 550%;
+}
+
+img{
+    width: 63vw;
+    object-fit: none;
+}
+
+.ingredienser{
+    font-size: 300%;
+}
+
+ul, ol{
+    margin: 5vh;
+}
+
+li{
+    padding: 1vh;
+}
+
+.instruktioner{
+    background-color: rgb(204, 217, 243);
+    font-size: 250%;
 }
