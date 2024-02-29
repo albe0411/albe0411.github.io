@@ -5,10 +5,11 @@ body{
 
 .whole_page{
     display: grid;
-    grid-template-columns: 20% auto;
+    grid-template-columns: 25% auto;
 }
 
 header{
+    font-size: min(80%);
     height: 15vh;
     display: flex;
     background-color: gray;
@@ -19,11 +20,12 @@ header{
 
 h1{
     margin: 0.5%;
+    margin-top: 4%;
     display: flex;
 }
 
 .navbar{
-    height: auto;
+    height: 70vh;
     background-color: rgb(90, 90, 90);
 }
 
@@ -34,29 +36,38 @@ ul{
     background-color: rgb(90, 90, 90);
 }
 
-li a{
+li button{
+    width: 100%;
     display: block;
+    background-color: rgb(90, 90, 90);
     color: black;
+    border: 0;
     font-size: 200%;
-    padding: 9% 9%;
+    padding: 9% 4%;
     text-decoration: none;
     text-transform: capitalize;
 }
 
-li a:hover{
+li button:hover{
     background-color: rgb(51, 51, 51);
     color: white;
 }
 
 .main{
-    padding: 5% 5%;
+    overflow: scroll;
+    height: 70vh;
+}
+
+h2{
+    margin: 6%;
 }
 
 p{
-    margin: 5%;
+    margin: 6%;
 }
 
 footer{
+    font-size: 45%;
     height: 15vh;
     display: flex;
     background-color: rgb(44, 44, 44);
