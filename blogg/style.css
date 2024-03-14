@@ -1,4 +1,5 @@
 body{
+    background-color: rgb(44, 44, 44);
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -9,7 +10,7 @@ body{
 }
 
 header{
-    font-size: min(80%);
+    font-size: max(80%, 3vh);
     height: 15vh;
     display: flex;
     background-color: gray;
@@ -19,8 +20,8 @@ header{
 }
 
 h1{
-    margin: 0.5%;
-    margin-top: 4%;
+        
+    margin-top: auto;
     display: flex;
 }
 
@@ -36,13 +37,16 @@ ul{
     background-color: rgb(90, 90, 90);
 }
 
+button{
+    font-size: max(140%, 5vh);
+}
+
 li button{
     width: 100%;
     display: block;
     background-color: rgb(90, 90, 90);
     color: black;
     border: 0;
-    font-size: 200%;
     padding: 9% 4%;
     text-decoration: none;
     text-transform: capitalize;
@@ -54,20 +58,23 @@ li button:hover{
 }
 
 .main{
+    background-color: white;
     overflow: scroll;
     height: 70vh;
 }
 
 h2{
+    font-size: max(140%, 5vh);
     margin: 6%;
 }
 
 p{
+    font-size: max(80%, 3vh);
     margin: 6%;
 }
 
 footer{
-    font-size: 45%;
+    font-size: max(60%, 2vh);
     height: 15vh;
     display: flex;
     background-color: rgb(44, 44, 44);

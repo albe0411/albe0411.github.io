@@ -24,7 +24,9 @@ hr{
 }
 
 .logo {
+    object-fit: contain;
     height: 80px;
+    width: 80px;
     margin: 30px;
     border-radius: 50%;
 }
