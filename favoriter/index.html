@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>favoriter</title>
+</head>
+<body>
+    <header><h1>Mina favoriter</h1></header>
+    <nav>
+        <button id="filmer_knapp" style="filter: brightness(100%);" onclick="bytatext('filmer', 'serier', 'låtar', 'filmer_knapp', 'serier_knapp', 'låtar_knapp')">Filmer</button>
+        <button id="serier_knapp" style="filter: brightness(100%);" onclick="bytatext('serier', 'låtar', 'filmer', 'serier_knapp', 'låtar_knapp', 'filmer_knapp')">Serier</button>
+        <button id="låtar_knapp" style="filter: brightness(100%);"onclick="bytatext('låtar', 'filmer', 'serier', 'låtar_knapp', 'filmer_knapp', 'serier_knapp')">Låter</button>
+    </nav>
+    <div class="main">
+        <div id="standard" style="display: block;">klick på knapp</div>
+        <div id="filmer" style="display: none;">
+            tonari no totoro
+        </div>
+        <div id="serier" style="display: none;">
+            miss kobayashi's dragon maid
+        </div>
+        <div id="låtar" style="display: none;">
+            HENTAI
+        </div>
+    </div>
+    <footer><h1>Här skulle du hitta min kontaktinfo om jag ville att du skulle se den</h1></footer>   
+</body>
+</html>
