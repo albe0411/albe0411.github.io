@@ -4,26 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
     <title>favoriter</title>
 </head>
 <body>
     <header><h1>Mina favoriter</h1></header>
     <nav>
-        <button id="filmer_knapp" onclick="bytatext('filmer')">Filmer</button>
-        <button id="serier_knapp" onclick="bytatext('serier')">Serier</button>
-        <button id="låtar_knapp" onclick="bytatext('låtar')">Låter</button>
+        <button class="selected" id="filmerKnapp" onclick="bytatext('filmer')">Filmer</button>
+        <button id="serierKnapp" onclick="bytatext('serier')">Serier</button>
+        <button id="låtarKnapp" onclick="bytatext('låtar')">Låtar</button>
     </nav>
-    <div class="main">
-        <div id="standard" style="display: block;">klick på knapp</div>
-        <div id="filmer" style="display: none;">
-            tonari no totoro
+    <div>
+        <div class="kategori" id="filmer" style="display: flex;">
+            <h3>Filmerna är inte i någon speciell ordning</h3>
+            <div class="favoritHållare">
+                <h2>となりのトトロ</h2>
+                <img src="favorit_bilder/My_Neighbor_Totoro_-_Tonari_no_Totoro_(Movie_Poster).jpg" alt="Totoro_Poster">
+            </div>
+            <div class="favoritHållare">
+                <h2>となりのトトロ</h2>
+                <img src="favorit_bilder/My_Neighbor_Totoro_-_Tonari_no_Totoro_(Movie_Poster).jpg" alt="Totoro_Poster">
+            </div>
+            <div class="favoritHållare">
+                <h2>となりのトトロ</h2>
+                <img src="favorit_bilder/My_Neighbor_Totoro_-_Tonari_no_Totoro_(Movie_Poster).jpg" alt="Totoro_Poster">
+            </div>
+            <div class="favoritHållare">
+                <h2>となりのトトロ</h2>
+                <img src="favorit_bilder/My_Neighbor_Totoro_-_Tonari_no_Totoro_(Movie_Poster).jpg" alt="Totoro_Poster">
+            </div>
+            <div class="favoritHållare">
+                <h2>となりのトトロ</h2>
+                <img src="favorit_bilder/My_Neighbor_Totoro_-_Tonari_no_Totoro_(Movie_Poster).jpg" alt="Totoro_Poster">
+            </div>
+            <div class="favoritHållare">
+                <h2>となりのトトロ</h2>
+                <img src="favorit_bilder/My_Neighbor_Totoro_-_Tonari_no_Totoro_(Movie_Poster).jpg" alt="Totoro_Poster">
+            </div>
+            <div class="favoritHållare">
+                <h2>となりのトトロ</h2>
+                <img src="favorit_bilder/My_Neighbor_Totoro_-_Tonari_no_Totoro_(Movie_Poster).jpg" alt="Totoro_Poster">
+            </div>
+            <div class="favoritHållare">
+                <h2>となりのトトロ</h2>
+                <img src="favorit_bilder/My_Neighbor_Totoro_-_Tonari_no_Totoro_(Movie_Poster).jpg" alt="Totoro_Poster">
+            </div>
+            <div class="favoritHållare">
+                <h2>となりのトトロ</h2>
+                <img src="favorit_bilder/My_Neighbor_Totoro_-_Tonari_no_Totoro_(Movie_Poster).jpg" alt="Totoro_Poster">
+            </div>
         </div>
-        <div id="serier" style="display: none;">
-            miss kobayashi's dragon maid
+        <div class="kategori" id="serier" style="display: none;">
+            <h3>Serierna är inte i någon speciell ordning</h3>
+            <div class="favoritHållare">
+                <h2>小林さんちのメイドラゴン</h2>
+                <img src="favorit_bilder/MV5BZTQ1ODExNGEtODVjYi00MTk4LWI1NTktOTM4NDVkYmZkYmQ3XkEyXkFqcGdeQXVyNjkxNzQ2NDI@._V1_.jpg" alt="Dragon_Maid_Poster">
+            </div>
+            <div class="favoritHållare">
+                <h2>小林さんちのメイドラゴン</h2>
+                <img src="favorit_bilder/MV5BZTQ1ODExNGEtODVjYi00MTk4LWI1NTktOTM4NDVkYmZkYmQ3XkEyXkFqcGdeQXVyNjkxNzQ2NDI@._V1_.jpg" alt="Dragon_Maid_Poster">
+            </div>
+            <div class="favoritHållare">
+                <h2>小林さんちのメイドラゴン</h2>
+                <img src="favorit_bilder/MV5BZTQ1ODExNGEtODVjYi00MTk4LWI1NTktOTM4NDVkYmZkYmQ3XkEyXkFqcGdeQXVyNjkxNzQ2NDI@._V1_.jpg" alt="Dragon_Maid_Poster">
+            </div>
+            <div class="favoritHållare">
+                <h2>小林さんちのメイドラゴン</h2>
+                <img src="favorit_bilder/MV5BZTQ1ODExNGEtODVjYi00MTk4LWI1NTktOTM4NDVkYmZkYmQ3XkEyXkFqcGdeQXVyNjkxNzQ2NDI@._V1_.jpg" alt="Dragon_Maid_Poster">
+            </div>
+            <div class="favoritHållare">
+                <h2>小林さんちのメイドラゴン</h2>
+                <img src="favorit_bilder/MV5BZTQ1ODExNGEtODVjYi00MTk4LWI1NTktOTM4NDVkYmZkYmQ3XkEyXkFqcGdeQXVyNjkxNzQ2NDI@._V1_.jpg" alt="Dragon_Maid_Poster">
+            </div>
+            <div class="favoritHållare">
+                <h2>小林さんちのメイドラゴン</h2>
+                <img src="favorit_bilder/MV5BZTQ1ODExNGEtODVjYi00MTk4LWI1NTktOTM4NDVkYmZkYmQ3XkEyXkFqcGdeQXVyNjkxNzQ2NDI@._V1_.jpg" alt="Dragon_Maid_Poster">
+            </div>
+            <div class="favoritHållare">
+                <h2>小林さんちのメイドラゴン</h2>
+                <img src="favorit_bilder/MV5BZTQ1ODExNGEtODVjYi00MTk4LWI1NTktOTM4NDVkYmZkYmQ3XkEyXkFqcGdeQXVyNjkxNzQ2NDI@._V1_.jpg" alt="Dragon_Maid_Poster">
+            </div>
+            <div class="favoritHållare">
+                <h2>小林さんちのメイドラゴン</h2>
+                <img src="favorit_bilder/MV5BZTQ1ODExNGEtODVjYi00MTk4LWI1NTktOTM4NDVkYmZkYmQ3XkEyXkFqcGdeQXVyNjkxNzQ2NDI@._V1_.jpg" alt="Dragon_Maid_Poster">
+            </div>
+            <div class="favoritHållare">
+                <h2>小林さんちのメイドラゴン</h2>
+                <img src="favorit_bilder/MV5BZTQ1ODExNGEtODVjYi00MTk4LWI1NTktOTM4NDVkYmZkYmQ3XkEyXkFqcGdeQXVyNjkxNzQ2NDI@._V1_.jpg" alt="Dragon_Maid_Poster">
+            </div>
         </div>
-        <div id="låtar" style="display: none;">
-            HENTAI
+        <div class="kategori" id="låtar" style="display: none;">
+            <h3>Låtarna är inte i någon speciell ordning</h3>
+            <iframe class="favoritHållare" style="border-radius:12px" src="https://open.spotify.com/embed/track/2JFOvMEbJSRQvjuFvAZv2L?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe class="favoritHållare" style="border-radius:12px" src="https://open.spotify.com/embed/track/2JFOvMEbJSRQvjuFvAZv2L?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe class="favoritHållare" style="border-radius:12px" src="https://open.spotify.com/embed/track/2JFOvMEbJSRQvjuFvAZv2L?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe class="favoritHållare" style="border-radius:12px" src="https://open.spotify.com/embed/track/2JFOvMEbJSRQvjuFvAZv2L?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe class="favoritHållare" style="border-radius:12px" src="https://open.spotify.com/embed/track/2JFOvMEbJSRQvjuFvAZv2L?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe class="favoritHållare" style="border-radius:12px" src="https://open.spotify.com/embed/track/2JFOvMEbJSRQvjuFvAZv2L?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe class="favoritHållare" style="border-radius:12px" src="https://open.spotify.com/embed/track/2JFOvMEbJSRQvjuFvAZv2L?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe class="favoritHållare" style="border-radius:12px" src="https://open.spotify.com/embed/track/2JFOvMEbJSRQvjuFvAZv2L?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe class="favoritHållare" style="border-radius:12px" src="https://open.spotify.com/embed/track/2JFOvMEbJSRQvjuFvAZv2L?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
     </div>
     <footer><h1>Här skulle du hitta min kontaktinfo om jag ville att du skulle se den</h1></footer>   

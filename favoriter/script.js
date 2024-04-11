@@ -1,25 +1,38 @@
-let standardDiv = document.getElementById("standard")
 let filmerDiv = document.getElementById("filmer")
 let serierDiv = document.getElementById("serier")
 let låtarDiv = document.getElementById("låtar")
 
+let filmerKnapp = document.getElementById("filmerKnapp")
+
 function bytatext(sidan) {
     if (sidan == "filmer") {
-        standardDiv.style.display = "none"
-        filmerDiv.style.display = "block"
+        
+        filmerKnapp.classList.add("selected")
+        serierKnapp.classList.remove("selected")
+        låtarKnapp.classList.remove("selected")
+
+        filmerDiv.style.display = "flex"
         serierDiv.style.display = "none"
         låtarDiv.style.display = "none"
     }
     else if (sidan == "serier") {
-        standardDiv.style.display = "none"
+
+        filmerKnapp.classList.remove("selected")
+        serierKnapp.classList.add("selected")
+        låtarKnapp.classList.remove("selected")
+
         filmerDiv.style.display = "none"
-        serierDiv.style.display = "block"
+        serierDiv.style.display = "flex"
         låtarDiv.style.display = "none"
     }
     else if (sidan == "låtar") {
-        standardDiv.style.display = "none"
+
+        filmerKnapp.classList.remove("selected")
+        serierKnapp.classList.remove("selected")
+        låtarKnapp.classList.add("selected")
+
         filmerDiv.style.display = "none"
         serierDiv.style.display = "none"
-        låtarDiv.style.display = "block"
+        låtarDiv.style.display = "flex"
     }
 }
