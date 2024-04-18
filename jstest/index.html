@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <title>Min Sida</title>
+</head>
+<body>
+    <input id="förNamn" type="text">
+    <input id="efterNamn" type="text">
+    <input id="jobb" type="text">
+    <p id="mail"></p>
+    <button onclick="fåMail()">Få mail</button>
+
+    <button onclick="ändraFärg()">Ändra färg</button>
+    <p id="färg">röd: 255, grön: 255 ,blå: 255</p>
+
+    <p>räkna ut gravitations kraft</p>
+    <input id="massa1" type="text">
+    <input id="massa2" type="text">
+    <input id="avstånd" type="text">
+    <button onclick="gravitation()">räkna ut</button>
+    <p id="gravitationskraft"></p>
+
+    <input id="date" type="date">
+    <button id="dateConfirm" onclick="dateConfirm()">confirm</button>
+    <img id="blåhaj" style="display: none;" src="bild/58f.jpg" alt="blåhaj">
+
+</body>
+<script src="script.js"></script>
+</html>
