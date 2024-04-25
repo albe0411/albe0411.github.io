@@ -10,8 +10,9 @@ h3{
 }
 
 a {
-    margin: 40px;
+    margin: 5px;
     text-decoration: none;
+    color: blue;
 }
 
 hr{
@@ -30,13 +31,13 @@ hr{
     margin: 30px;
     border-radius: 50%;
 }
-
+/*
 #ommig::after {
     content: "";
     clear: both;
     display: table;
 }
-
+*/
 #ommig {
     display: flex;
     justify-content: space-around;
@@ -47,6 +48,7 @@ hr{
     max-width: 1000px;
     text-align: left;
     margin: 50px;
+    font-size: 150%;
 }
 
 .porträtt-container {
@@ -71,7 +73,6 @@ hr{
 .projekt-container{
     display: flex;
     justify-content: space-around;
-    margin: 50px;
     flex-wrap: wrap;
 }
 
@@ -84,13 +85,16 @@ hr{
 }
 
 .projekt-link{
-    color: blueviolet;
+    text-decoration: none;
+    width: 140px;
+    margin: 5px;
+    margin-left: 30px;
 }
 
 #navlist {
     display: flex;
     list-style-type: none;
-    width: 500px;
+    width: 700px;
     justify-content: space-around;
     font-size: 30px;
 }
