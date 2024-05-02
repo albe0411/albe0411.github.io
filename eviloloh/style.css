@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    color: #ff5f27;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    width: 30%;
+    margin: 4vh;
+}
+
+.nav_list{
+    padding: 5%;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    border-radius: 1000vh;
+    border-style: solid;
+    border-color: #ff5f27;
+    
+}
