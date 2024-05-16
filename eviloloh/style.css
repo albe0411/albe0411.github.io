@@ -6,6 +6,9 @@ body{
 header{
     display: flex;
     justify-content: space-between;
+    height: 6vh;
+    width: 100%;
+    position: fixed;
 }
 
 a{
@@ -15,19 +18,46 @@ a{
 
 nav{
     display: flex;
-    width: 30%;
-    margin: 4vh;
+    width: calc(30% + 200px);
+    height: 6vh;
+    margin: 3vh;
+}
+
+.header_logo{
+    height: 5vh;
+    margin: 3vh;
 }
 
 .nav_list{
-    padding: 5%;
+    padding-left: 2vh;
+    padding-right: 2vh;
     margin: 0;
     width: 100%;
+    height: 6vh;
+    font-size: clamp(2vh, 140%, 4vh);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    align-content: center;
     list-style: none;
     border-radius: 1000vh;
     border-style: solid;
     border-color: #ff5f27;
+    text-transform: uppercase;
+}
+
+.burgir_menu{
+    display: none;
+    margin: 3vh;
+    height: 6vh;
     
+}
+
+@media only screen and (max-width: 850px){
+    .burgir_menu{
+        display: block;
+    }
+    .nav_list{
+        display: none;
+    }
 }
