@@ -16,11 +16,3 @@ function burgirMenu(){
         header.classList.add("header")
     }
 }
-/*
-if (width >= 900){
-    navList.classList.add("nav_list")
-    navList.classList.remove("nav_burgir_menu")
-    header.classList.remove("header_when_burgir")
-    header.classList.add("header")
-}
-*/
