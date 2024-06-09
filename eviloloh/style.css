@@ -345,3 +345,54 @@ h1{
     margin: 1vh;
     margin-top: -0.017vh;
 }
+
+
+
+
+
+.unnamed_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.unnamed_grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+.unnamed_data{
+    width: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+dl{
+    position: relative;
+    display: table;
+    width: 100%;
+    text-align: left;
+    color: #ff5f27;
+    font-weight: bold;
+    border-bottom: 1px solid #ff5f27;
+}
+
+dt{
+    display: table-cell;
+    width: 10em;
+    font-size: 16px;
+    line-height: 1.5em;
+    padding: 16px 20px;
+    position: relative;
+}
+
+dd{
+    display: table-cell;
+    width: calc(100% - 10em);
+    font-size: 16px;
+    line-height: 1.5em;
+    padding: 16px 20px;
+}
