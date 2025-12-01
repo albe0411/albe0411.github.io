@@ -90,4 +90,45 @@ a:hover{
 
 p{
     font-size: 1.5em;
+    margin: 10px;
+}
+
+
+.flex_container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 25px;
+    width: calc(100% - 50px);
+    padding-top: 100px;
+}
+
+.plan_block{
+    width: 350px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 30px;
+    border-color: #4e1a80;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.plan_block_body{
+    background-color: #1f1f1f;
+    width: 350px;
+    height: 350px;
+}
+
+h4{
+    margin: 0;
+    align-content: center;
+    height: 50px;
+    font-size: 2em;
+    border-radius: 30px;
+    border-color: #4e1a80;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: -2px;
+    margin-top: -2px;
+    background-color: #1b1b1b;
 }
