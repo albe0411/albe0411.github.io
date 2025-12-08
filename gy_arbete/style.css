@@ -29,9 +29,13 @@ header{
     align-items: center;
 }
 
-h1{
+.header_link{
     width: fit-content;
     margin: 20px;
+    font-size: 2em;
+    text-decoration: none;
+    color: #cccccc;
+    font-weight: bold;
 }
 
 h3{
@@ -60,7 +64,7 @@ ul{
     list-style: none;
 }
 
-a{
+.shortcut{
     width: auto;
     padding: 5%;
     display: block;
@@ -69,7 +73,7 @@ a{
     text-decoration: none;
 }
 
-a:hover{
+.shortcut:hover{
     background-color: #141414;
 }
 
